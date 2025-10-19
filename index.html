@@ -87,34 +87,39 @@ r<!DOCTYPE html>
 
   <main class="container">
     <!-- HERO -->
-    <section class="hero" id="top">
-      <p class="eyebrow">Portfolio</p>
-      <h1>Muralidhar Kukkala</h1>
-        <!-- Profile Photo -->
-    <!-- Large rectangular profile image -->
-      <img src="IMG_20250119_141335418_HDR_AE.jpg" alt="Muralidhar Kukkala"
-     style="width:100%;max-width:720px;height:auto;border-radius:16px;
-            margin-top:20px;box-shadow:0 10px 25px rgba(0,0,0,0.4);object-fit:cover;">
-      
-     <p style="max-width:700px;line-height:1.6;margin-top:8px;color:#ccc;">
-  Data Analyst with a strong foundation in data wrangling, statistical analysis, and visualization.<br>
-  Skilled in transforming raw datasets into meaningful insights that drive business performance.<br>
-  Passionate about leveraging analytics, machine learning, and storytelling to support data-driven decisions.
-      </p>
- 
-        <span class="chip">Data Analysis</span>
-        <span class="chip">Data Wrangling</span>
-        <span class="chip">Data Preprocessing</span>
-        <span class="chip">Machine Learning</span>
-        <span class="chip">SQL</span>
-        <span class="chip">Power BI</span>
-        <span class="chip">Excel</span>
-      <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
-        <a class="btn" href="#projects">View Projects</a>
-        <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
-      </div>
-    </section>
+   <section class="hero" id="top" style="display:flex;flex-wrap:wrap;align-items:center;gap:28px;justify-content:center;">
+  
+  <!-- Profile Image -->
+  <div style="flex:0 1 280px;text-align:center;">
+    <img src="IMG_20250119_141335418_HDR_AE.jpg" alt="Muralidhar Kukkala"
+         style="width:260px;height:auto;border-radius:20px;object-fit:cover;
+                box-shadow:0 8px 25px rgba(0,0,0,0.4);">
+  </div>
 
+  <!-- Text Content -->
+  <div style="flex:1 1 400px;min-width:300px;">
+    <p class="eyebrow">Portfolio</p>
+    <h1 style="margin-bottom:10px;">Muralidhar Kukkala</h1>
+    <p style="color:#ccc;line-height:1.6;margin-bottom:10px;">
+      Data Analyst with a strong foundation in data wrangling, statistical analysis, and visualization.<br>
+      Skilled in transforming raw datasets into meaningful insights that drive business performance.<br>
+      Passionate about leveraging analytics, machine learning, and storytelling to support data-driven decisions.
+    </p>
+    <div class="chips" style="margin-top:12px;">
+      <span class="chip">Data Analysis</span>
+      <span class="chip">SQL</span>
+      <span class="chip">Python</span>
+      <span class="chip">Power BI</span>
+      <span class="chip">Excel</span>
+      <span class="chip">Machine Learning</span>
+    </div>
+    <div style="margin-top:14px;display:flex;gap:12px;flex-wrap:wrap;">
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+    </div>
+  </div>
+</section>
+    
         <article class="card">
           <h3>Data Pipeline for Integrating Legislative, Academic, and Public Health Datasets</h3>
           <p>Integrated multi-source datasets and performed analysis of Irish parliamentary speaker/speech patterns; visualized enrollment, credit hours, and seat limits; and ran trend analysis & clustering on Irish public health statistics.</p>
@@ -244,6 +249,7 @@ r<!DOCTYPE html>
   </script>
 </body>
 </html>
+
 
 
 
